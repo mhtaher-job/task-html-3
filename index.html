@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task-html-3</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="Photography-Workshop">کارگاه عکاسی</h1>
+    </header>
+    <nav>
+      <section>
+        <a href="#Introduction">معرفی</a> |
+        <a href="#Workshop-Schedule">برنامه</a> |
+        <a href="#Sign-Up">ثبت‌نام</a>
+      </section>
+      <section>
+        <p.>یک روز برای یادگیری عکاسی با موبایل</p.>
+        <br />
+        <picture>
+          <source
+            id="anime-pic"
+            media="(max-width: 480px)"
+            srcset="assets/images/mobile.png"
+          />
+          <source
+            id="anime-pic"
+            media="(max-width: 767px)"
+            srcset="assets/images/tablet.png"
+          />
+          <img
+            id="anime-pic"
+            src="assets/images/desktop.png"
+            alt="anime-wall"
+          />
+        </picture>
+        <br />
+        <p>تمرین دیدن جزئیات</p>
+      </section>
+    </nav>
+    <hr />
+    <main>
+      <section id="Introduction">
+        <h2>چه چیز‌هایی یاد می‌گیریم</h2>
+        <ul>
+          <li>نور و سایه</li>
+          <li>کادربندی</li>
+          <li>عکاسی از طبیعت</li>
+        </ul>
+      </section>
+      <section id="Tools">
+        <h2>وسایل مورد نیاز</h2>
+        <ol>
+          <li>موبایل یا دوربین</li>
+          <li>دفترچه یادداشت</li>
+        </ol>
+      </section>
+      <section id="Workshop-Schedule">
+        <h2>برنامه کارگاه</h2>
+        <table>
+          <tr>
+            <th>ساعت</th>
+            <th>موضوع</th>
+            <th>مدرس</th>
+          </tr>
+          <tr>
+            <td>9:00</td>
+            <td>نورپردازی</td>
+            <td>سارا احمدی</td>
+          </tr>
+          <tr>
+            <td>10:00</td>
+            <td>تمرین عملی</td>
+            <td>علی رضایی</td>
+          </tr>
+        </table>
+      </section>
+      <section id="Sign-Up">
+        <h2>ثبت نامه</h2>
+        <label for="full-name">نام و نام خانوادگی</label>
+        <input type="text" id="full-name" /><br />
+        <label for="e-mail">ایمیل</label>
+        <input type="email" id="e-mail" /><br />
+        <label for="Experience">سطح آشنایی</label>
+        <select name="Experience" id="">
+          <option value="Experience">مبتدی</option>
+          <option value="Experience">متوسط</option>
+          <option value="Experience">حرفه‌ای</option></select
+        ><br />
+        <input type="checkbox" id="To-participate" />در کارگاه شرکت می‌کنم<br />
+        <input type="submit" value="ارسال" />
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <a href="#Photography-Workshop">بازگشت به بالا</a>
+    </footer>
+  </body>
+</html>
